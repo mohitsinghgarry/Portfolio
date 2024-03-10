@@ -14,7 +14,7 @@ export const Home = () => {
         <div className='left-header'>
             <div className="h-shape"></div>
             <div className="image">
-                <img src="src\assets\img\herophoto.png"alt="image" />
+                <img src="public\img\herophoto.png"alt="image" />
             </div>
         </div>
         <div className="right-header">

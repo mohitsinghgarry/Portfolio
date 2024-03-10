@@ -2,12 +2,11 @@ import { useEffect, useState } from 'react';
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import github from "../assets/img/github.svg";
-import linkedin from "../assets/img/linkedin.svg";
-import leetcode from "../assets/img/leetcodeicon.svg";
-import twitter from "../assets/img/twitter-x.svg";
+import github from "/img/github.svg";
+import linkedin from "/img/linkedin.svg";
+import leetcode from "/img/leetcodeicon.svg";
+import twitter from "/img/twitter-x.svg";
 import { NavLink } from 'react-router-dom';
-import { SiLeetcode } from "react-icons/si";
 import './NavBar.css';
 
 function NavBar(){
@@ -58,9 +57,9 @@ function NavBar(){
             </Nav>
         <span className="navbar-text">
             <div className="social-icon">
-                <a className="attribute" href="https://github.com/mohitsinghgarry"><img src={github} alt="logo" /></a>
+                <a className="attribute" href="https://github.com/mohitsinghgarry"><img src={github}alt="logo" /></a>
                 <a className="attribute" href="https://www.linkedin.com/in/mohit-singh-95a883225/"><img src={linkedin} alt="logo" /> </a>
-                <a className="attribute" href="https://leetcode.com/Mohitsinghgarry/"><img src={leetcode} alt="logo" /></a>
+                <a className="attribute" href="https://leetcode.com/Mohitsinghgarry/"><img src={leetcode}alt="logo" /></a>
                 <a className="attribute" href="#"><img src={twitter} alt="logo" /></a>
             </div>
             <div className='bn'>
