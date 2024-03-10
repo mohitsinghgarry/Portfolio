@@ -2,14 +2,14 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Kode Mono", monospace;
+    font-family: "Raleway", sans-serif;
     font-optical-sizing: auto;
-    font-weight: 400;
+    font-weight: 300;
     font-style: normal;
-    transition: 0.2s ease-in-out;
-  }
+    }
   
   html {
+    width: 100%;
     scroll-behavior: smooth;
     scroll-padding-top: 75px;
   }
@@ -27,4 +27,63 @@
     margin: 0;
     padding: 0;
     line-height: normal;
+  }
+  .about-container{
+    animation: transitionin 1s ;
+  }
+  .portfolios{
+    animation: transition 1s;
+  }
+  .contact-content-con{
+    animation: trans 1s;
+  }
+  .header-content{
+    animation: tr 1s;
+  }
+  @keyframes transitionin {
+    from{
+      opacity: 0;
+      transform: rotateZ(-20deg);
+    }
+    to{
+      opacity: 1;
+      transform: rotateX(0);
+    }
+  }
+  @keyframes transition{
+    from{
+      opacity: 0;
+      transform: rotateX(-60deg);
+    }
+    to{
+      opacity: 1;
+      transform: rotateX(0);
+    }
+  }
+  @keyframes trans{
+    from{
+      opacity: 0;
+      transform: rotateY(-60deg);
+    }
+    to{
+      opacity: 1;
+      transform: rotateZ(0);
+    }
+  }
+  @keyframes tr{
+    from{
+      opacity: 0;
+      transform: rotateZ(-10deg);
+    }
+    to{
+      opacity: 1;
+      transform: rotateX(0);
+    }
+  }
+
+  .light-theme{
+      --main-heading:black;
+  }
+  .dark-theme{
+      --main-heading:red;
   }

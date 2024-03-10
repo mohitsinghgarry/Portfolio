@@ -4,12 +4,14 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import github from "../assets/img/github.svg";
 import linkedin from "../assets/img/linkedin.svg";
-import discord from "../assets/img/discord.svg";
+import leetcode from "../assets/img/leetcodeicon.svg";
 import twitter from "../assets/img/twitter-x.svg";
 import { NavLink } from 'react-router-dom';
+import { SiLeetcode } from "react-icons/si";
 import './NavBar.css';
 
 function NavBar(){
+    const[theme , setTheme] = useState('dark-theme');
     const[activeLink , setActiveLink] = useState('Home');
     const[scrolled, setScroll] = useState(false);
     const onUpdateActiveLink = (value) => {
@@ -25,10 +27,22 @@ function NavBar(){
             window.removeEventListener('scroll', onscroll);
         })
     },[]);
+
+    const onclickhandler = ()=>{
+       if(theme === 'dark-theme'){
+           setTheme('light-theme');
+       }
+       else{
+           setTheme('dark-theme');
+       }
+    }
+    useEffect(()=>{
+        document.body.className = theme;
+    },[theme])
    return(
     <Navbar expand="lg" className={scrolled? "scrolled":""}>
     <Container>
-    <Navbar.Brand href="#Home">
+    <Navbar.Brand href="./">
     <span className="owner-name">
         <span style={{color: 'red' , fontSize:'xxx-large', fontWeight:'bolder'}}>M</span>OHIT SINGH
     </span>
@@ -37,20 +51,20 @@ function NavBar(){
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
       <Nav className="ms-auto">
-              <NavLink to='./' className={activeLink === 'Home' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('Home')}>Home</NavLink>
-              <NavLink to='./Skills' className={activeLink === 'Skills' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('Skills')}>Skills</NavLink>
+              <NavLink to='./'  className={activeLink === 'Home' ? 'active navbar-link' : 'navbar-link'}  onClick={() => onUpdateActiveLink('Home')}>Home</NavLink>
+              <NavLink to='./About' className={activeLink === 'About' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('About')}>About</NavLink>
               <NavLink to='./Projects' className={activeLink === 'Projects' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('Projects')}>Projects</NavLink>
               <NavLink to='./ContactUs' className={activeLink === 'ContactUs' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('ContactUs')}>Contact Us</NavLink>
             </Nav>
         <span className="navbar-text">
             <div className="social-icon">
-                <a className="attribute" href="#"><img src={github} alt="logo" /></a>
-                <a className="attribute" href="#"><img src={linkedin} alt="logo" /> </a>
-                <a className="attribute" href="#"><img src={discord} alt="logo" /></a>
+                <a className="attribute" href="https://github.com/mohitsinghgarry"><img src={github} alt="logo" /></a>
+                <a className="attribute" href="https://www.linkedin.com/in/mohit-singh-95a883225/"><img src={linkedin} alt="logo" /> </a>
+                <a className="attribute" href="https://leetcode.com/Mohitsinghgarry/"><img src={leetcode} alt="logo" /></a>
                 <a className="attribute" href="#"><img src={twitter} alt="logo" /></a>
             </div>
             <div className='bn'>
-            <button className="vdd" onClick={()=>console.log('connect')}><span>Let's Connect</span></button>
+            <button className="vdd" onClick={onclickhandler}><span>Change Mode</span></button>
             </div>
         </span>
       </Navbar.Collapse>

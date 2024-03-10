@@ -1,0 +1,86 @@
+.port-text {
+    padding: 2rem 0;
+    text-align: center;
+    font-weight: bold;
+    color: rgb(191, 190, 190);
+}
+
+.portfolios {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 2rem;
+    margin-top: 3rem;
+    margin-left: 10rem;
+    margin-right: 10rem;
+    .portfolio-item {
+        position: relative;
+        border-radius: 15px;
+        img {
+            // border: 2px solid red;
+            width: 100%;
+            height: 300px;
+            object-fit: cover;
+            border-radius: 15px;
+        }
+        .hover-item {
+            width: 100%;
+            height: 100%;
+            background-color: red;
+            position: absolute;
+            left: 0;
+            top: 0;
+            border-radius: 15px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            opacity: 0;
+            transform: scale(0);
+            transition: all .4s ease-in-out;
+            h3 {
+                font-size: 1.5rem;
+                color: white;
+                margin-bottom: 1.5rem;
+            }
+            .icons {
+                display: flex;
+                gap: 2rem;
+                a{
+                    padding-top: 6px;
+                    background-color: white;
+                    transition: all 0.5s ease;
+                    border-radius: 50%;
+                    width: 3rem;
+
+                    height: 3rem;
+                    &:hover{
+                        filter: invert(1);
+                    }
+                }
+        }
+    }
+}
+}
+.portfolio-item:hover .hover-item {
+    opacity: 1;
+    transform: scale(1);
+}
+
+@media (max-width:992px) {
+    .portfolios{
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+@media (max-width:840px) {
+    .portfolios{
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+}
+@media (max-width:650px) {
+    .portfolios{
+        grid-template-columns: repeat(1,1fr);
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+}
