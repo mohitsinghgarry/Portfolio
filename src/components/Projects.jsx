@@ -19,7 +19,7 @@ export const Projects = () => {
        <div className="portfolios">
         <div className="portfolio-item">
           <div className="imagee">
-            <img src="public\img\nature.jpg" alt="image" />
+            <img src="\img\nature.jpg" alt="image" />
           </div>
           <div className="hover-item"> 
             <h3>Project source</h3>
@@ -31,7 +31,7 @@ export const Projects = () => {
         </div>
         <div className="portfolio-item">
           <div className="imagee">
-            <img src="public\img\nature.jpg" alt="image" />
+            <img src="\img\nature.jpg" alt="image" />
           </div>
           <div className="hover-item"> 
             <h3>Project source</h3>
@@ -43,7 +43,7 @@ export const Projects = () => {
         </div>
         <div className="portfolio-item">
           <div className="imagee">
-            <img src="public\img\nature.jpg" alt="image" />
+            <img src="\img\nature.jpg" alt="image" />
           </div>
           <div className="hover-item"> 
             <h3>Project source</h3>
@@ -55,7 +55,7 @@ export const Projects = () => {
         </div>
         <div className="portfolio-item">
           <div className="imagee">
-            <img src="public\img\nature.jpg" alt="image" />
+            <img src="\img\nature.jpg" alt="image" />
           </div>
           <div className="hover-item"> 
             <h3>Project source</h3>
@@ -67,7 +67,7 @@ export const Projects = () => {
         </div>
         <div className="portfolio-item">
           <div className="imagee">
-            <img src="public\img\nature.jpg" alt="image" />
+            <img src="\img\nature.jpg" alt="image" />
           </div>
           <div className="hover-item"> 
             <h3>Project source</h3>
@@ -79,7 +79,7 @@ export const Projects = () => {
         </div>
         <div className="portfolio-item">
           <div className="imagee">
-            <img src="public\img\nature.jpg" alt="image" />
+            <img src="\img\nature.jpg" alt="image" />
           </div>
           <div className="hover-item"> 
             <h3>Project source</h3>

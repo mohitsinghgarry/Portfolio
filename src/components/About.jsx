@@ -15,6 +15,7 @@ export const About = () => {
     return (
         <div className='main-title'>
             <div className='main-heading'> {typeEffect} <span><Cursor cursorColor='gray'/></span><span className='bg-text'>My Stats</span></div>
+            <div className='containerss'>
             <div className="about-container">
                 <div className="left-about">
                     <h4>Personal Background Summary</h4>
@@ -149,6 +150,7 @@ export const About = () => {
                     </p>
                 </div>
               
+            </div>
             </div>
         </div>
     )
