@@ -17,6 +17,18 @@ export const Projects = () => {
        Here is a compilation of my professional achievements across diverse programming languages.
        </p>
        <div className="portfolios">
+       <div className="portfolio-item">
+          <div className="imagee">
+            <img src="\img\inventory-management.png" alt="image" />
+          </div>
+          <div className="hover-item"> 
+            <h3  style={{fontWeight:"bold" , color:"black"}}>Inventory Pro:<span style={{ display:"inline-block" ,backgroundColor:"white" , fontWeight:"bold", borderRadius:"10px" , padding:"5px"}}> Inventory Management </span></h3>
+            <div className="icons">
+              <a href="https://github.com/mohitsinghgarry/Inventory_Management" target="_blank">< FaGithub color='black' size={35}/></a>
+              <a href="https://frontend-inventory-managment.vercel.app/" target="_blank"><FaLink color='black' size={35}/></a>
+            </div>
+          </div>
+        </div>
         <div className="portfolio-item">
           <div className="imagee">
             <img src="\img\cartopia-img.png" alt="image" />
