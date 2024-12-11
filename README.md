@@ -2,7 +2,7 @@
 
 Welcome to my **Portfolio Website** repository! This project showcases my work, skills, and creativity through an engaging and responsive web design.
 
-![Portfolio Banner](https://github.com/mohitsinghgarry/Portfolio/raw/main/public/img/portfolio-banner.png)
+![Portfolio Banner](/public/img/banner.png)
 
 ## 🌟 Features
 
@@ -52,29 +52,23 @@ vite.config.js   # Vite configuration for development and build
 
 ## 🎨 Components Overview
 
-### **1. Home**
-- Displays a welcoming message and a brief introduction.
-- Includes engaging visuals and a call-to-action button.
-
-![Home Component](https://github.com/mohitsinghgarry/Portfolio/raw/main/public/img/home-component.png)
-
 ### **2. About**
 - Provides information about my background and skills.
 - Styled using SCSS for modern design.
 
-![About Component](https://github.com/mohitsinghgarry/Portfolio/raw/main/public/img/about-component.png)
+![About Component](/public/img/about.png)
 
 ### **3. Projects**
 - Highlights my key projects with descriptions and links.
 - Styled with animations for a lively presentation.
 
-![Projects Component](https://github.com/mohitsinghgarry/Portfolio/raw/main/public/img/projects-component.png)
+![Projects Component](/public/img/project.png)
 
 ### **4. Contact Us**
 - Simple and clean form to connect with me.
 - Functional email integration.
 
-![Contact Us Component](https://github.com/mohitsinghgarry/Portfolio/raw/main/public/img/contact-component.png)
+![Contact Us Component](/public/img/contact.png)
 
 ## 🚀 How to Run Locally
 
@@ -103,13 +97,9 @@ vite.config.js   # Vite configuration for development and build
    http://localhost:5173
    ```
 
-## 📸 Preview
-
-![Website Preview](https://github.com/mohitsinghgarry/Portfolio/raw/main/public/img/portfolio-preview.png)
-
 ## 🌐 Live Demo
 
-Check out the live version of the portfolio here: [Portfolio Website](https://your-live-demo-link.com)
+Check out the live version of the portfolio here: [Portfolio Website](https://cartopiaecommerce.netlify.app/)
 
 ## 🤝 Contributing
 
@@ -119,9 +109,7 @@ Contributions are welcome! Feel free to fork the repository and submit pull requ
 
 Have questions or want to connect? Reach out via:
 
-- **Email**: [your.email@example.com](mailto:your.email@example.com)
-- **LinkedIn**: [Your LinkedIn Profile](https://linkedin.com/in/your-profile)
-
+- **Email**: [your.email@example.com](mailto:mohitsinghx4@gmail.com)
 ---
 
 *Built with 💙 by [Mohit Singh](https://github.com/mohitsinghgarry)*
