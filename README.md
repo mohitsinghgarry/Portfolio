@@ -109,7 +109,7 @@ Contributions are welcome! Feel free to fork the repository and submit pull requ
 
 Have questions or want to connect? Reach out via:
 
-- **Email**: [your.email@example.com](mailto:mohitsinghx4@gmail.com)
+- **Email**: [mohitsinghx4@gmail.com](mailto:mohitsinghx4@gmail.com)
 ---
 
 *Built with 💙 by [Mohit Singh](https://github.com/mohitsinghgarry)*
