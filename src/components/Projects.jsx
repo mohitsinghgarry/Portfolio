@@ -25,7 +25,7 @@ export const Projects = () => {
             <h3  style={{fontWeight:"bold" , color:"black"}}>Inventory Pro:<span style={{ display:"inline-block" ,backgroundColor:"white" , fontWeight:"bold", borderRadius:"10px" , padding:"5px"}}> Inventory Management </span></h3>
             <div className="icons">
               <a href="https://github.com/mohitsinghgarry/Inventory_Management" target="_blank">< FaGithub color='black' size={35}/></a>
-              <a href="https://frontend-inventory-managment.vercel.app/" target="_blank"><FaLink color='black' size={35}/></a>
+              <a href="https://inventory-managment-pro.vercel.app/" target="_blank"><FaLink color='black' size={35}/></a>
             </div>
           </div>
         </div>
