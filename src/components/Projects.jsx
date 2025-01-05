@@ -60,7 +60,7 @@ export const Projects = () => {
           <div className="hover-item"> 
             <h3 style={{fontWeight:"bold" , color:"black"}}>Opportunity Orbit :<span style={{ display:"inline-block" ,backgroundColor:"white" , fontWeight:"bold", borderRadius:"10px" , padding:"5px"}}>Job Portal</span></h3>
             <div className="icons">
-              <a href="https://github.com/mohitsinghgarry/JOB_PORTAL_FRONTEND" target="_blank">< FaGithub color='black' size={35}/></a>
+              <a href="https://github.com/mohitsinghgarry/Opportunity-Orbit-job-Portal" target="_blank">< FaGithub color='black' size={35}/></a>
               <a href="https://opportunityorbitjobportal.netlify.app/" target="_blank"><FaLink color='black' size={35}/></a>
             </div>
           </div>
