@@ -67,6 +67,18 @@ export const Projects = () => {
         </div>
         <div className="portfolio-item">
           <div className="imagee">
+            <img src="\img\twitter-homepage.png" alt="image" />
+          </div>
+          <div className="hover-item"> 
+            <h3 style={{fontWeight:"bold" , color:"black"}}>TrendSniffer :<span style={{ display:"inline-block" ,backgroundColor:"white" , fontWeight:"bold", borderRadius:"10px" , padding:"5px"}}>Twitter trend scraper</span></h3>
+            <div className="icons">
+              <a href="https://github.com/mohitsinghgarry/TrendSniffer-twitter-trend-scrapper" target="_blank">< FaGithub color='black' size={35}/></a>
+              <a href="#" target="_blank"><FaLink color='black' size={35}/></a>
+            </div>
+          </div>
+        </div>
+        <div className="portfolio-item">
+          <div className="imagee">
             <img src="\img\tourhub.png" alt="image" />
           </div>
           <div className="hover-item"> 
