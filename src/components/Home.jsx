@@ -26,7 +26,7 @@ export const Home = () => {
         With expertise in both front-end and back-end realms, I bring a fresh perspective to problem-solving. Explore my projects on GitHub for a taste of my coding journey.
         </p>
       <div className="btn-con">
-      <a href="https://drive.google.com/file/d/1OGZOdAZgyM4mKHVS4_4EwzLFKLv_B6_s/view?usp=sharing" className='main-btn'>
+      <a href="https://drive.google.com/file/d/1AX6YE9HNnnpi3y7tylJzzL7sg28oCHa0/view?usp=sharing" className='main-btn'>
           <span className='btn-text'>Download Resume</span>
           <span className='btn-icon'><FaCloudArrowDown /></span>
         </a>
