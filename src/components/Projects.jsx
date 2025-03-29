@@ -77,6 +77,30 @@ export const Projects = () => {
             </div>
           </div>
         </div>
+         <div className="portfolio-item">
+          <div className="imagee">
+            <img src="\img\discord.png" alt="image" />
+          </div>
+          <div className="hover-item"> 
+            <h3 style={{fontWeight:"bold" , color:"black"}}>discord text color : <span style={{ display:"inline-block" ,backgroundColor:"white" , fontWeight:"bold", borderRadius:"10px" , padding:"5px"}}>Webapp</span></h3>
+            <div className="icons">
+              <a href="https://github.com/mohitsinghgarry/Assignment_discord_text" target="_blank">< FaGithub color='black' size={35}/></a>
+              <a href="https://discordtextcolor.netlify.app/" target="_blank"><FaLink color='black' size={35}/></a>
+            </div>
+          </div>
+        </div>
+        <div className="portfolio-item">
+          <div className="imagee">
+            <img src="\img\api.png" alt="image" />
+          </div>
+          <div className="hover-item"> 
+            <h3 style={{fontWeight:"bold" , color:"black"}}>FilmFlow : <span style={{ display:"inline-block" ,backgroundColor:"white" , fontWeight:"bold", borderRadius:"10px" , padding:"5px"}}>.CSV Data Retrieval API</span></h3>
+            <div className="icons">
+              <a href="https://github.com/mohitsinghgarry/FilmFlow" target="_blank">< FaGithub color='black' size={35}/></a>
+              <a href="" target="_blank"><FaLink color='black' size={35}/></a>
+            </div>
+          </div>
+        </div>
         <div className="portfolio-item">
           <div className="imagee">
             <img src="\img\tourhub.png" alt="image" />

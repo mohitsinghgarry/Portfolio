@@ -23,8 +23,8 @@ export const About = () => {
                         
                     My commitment to proficiency in front-end technologies is complemented by a fervent enthusiasm to intricately engage with back-end systems, ensuring the delivery of impeccable end-to-end user experiences.</p>
                     <div className="btn-con">
-                        <a href="" className='main-btn'>
-                            <span className='btn-text'>Download Cv</span>
+                        <a href="https://drive.google.com/file/d/1AX6YE9HNnnpi3y7tylJzzL7sg28oCHa0/view?usp=sharing" className='main-btn'>
+                            <span className='btn-text'>Download Resume</span>
                             <span className='btn-icon'><FaCloudArrowDown /></span>
                         </a>
                     </div>
@@ -38,7 +38,7 @@ export const About = () => {
                     </div>
                     <div className="about-item">
                         <div className="abt-text">
-                            <p className="large-text">250+</p>
+                            <p className="large-text">415+</p>
                             <p className="small-text">leetcode problems <br /> completed</p>
                         </div>
                     </div>
